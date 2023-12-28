@@ -123,4 +123,5 @@ If you want all your code to be italicized, like on my screenshots, add these se
     }
 
 `
+
 But not all fonts look good in italic style. I prefer to use JetBrains Mono and Fira Code.
