@@ -1,7 +1,5 @@
 # Deep Dark Space Theme
 
-Deep Dark Space syntax supports many different programming languages.
-
 ## JavaScript
 
 ![JavaScript](/images/JS-1.png)
@@ -74,8 +72,6 @@ Deep Dark Space syntax supports many different programming languages.
 
 If you want all your code to be italicized, like on my screenshots, add these settings to your settings.json file.
 
-`
-
     "editor.tokenColorCustomizations": {
     	"[Deep Dark Space]": {
     		"textMateRules": [
@@ -89,6 +85,6 @@ If you want all your code to be italicized, like on my screenshots, add these se
     	}
     }
 
-`
-
 But not all fonts look good in italic style. I prefer to use JetBrains Mono and Fira Code.
+
+**_Enjoy_**
