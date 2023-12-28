@@ -1,39 +1,6 @@
-<!-- # deep-dark-space README
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-- Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-- Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-- Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
-_qwe_
-**_qweqwe_**
-~~qwe~~
-
-1. qwe
-2. qweqwe
-
-![text description](https://text)
-
-> asdsad
->
-> > asdasd
-> >
-> > > qweqweqwe
-
-<https://sdfsdf> -->
-
 # Deep Dark Space Theme
 
-Deep Dark Space supports many different programming languages.
+Deep Dark Space syntax supports many different programming languages.
 
 ## JavaScript
 
@@ -61,7 +28,7 @@ Deep Dark Space supports many different programming languages.
 
 ## C#
 
-![C#](/images/C#.png)
+![C#](/images/CS.png)
 
 ## Dart
 
