@@ -4,13 +4,17 @@
 	"description": "Syntax has never been so beautiful.",
 	"version": "0.1.0",
 	"publisher": "smpl-ndrw",
-	"icon": "astronaut.png",
+	"icon": "astronaut-icon.png",
 	"engines": {
 		"vscode": "^1.85.0"
 	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/smpl-ndrw/deep-dark-space.git"
+	},
+	"galleryBanner": {
+		"color": "#111636",
+		"theme": "dark"
 	},
 	"keywords": [
 		"dark",
@@ -31,7 +35,6 @@
 		"synthwave",
 		"palenight",
 		"cobalt",
-		"cobalt2",
 		"andromeda",
 		"atom",
 		"nord",
@@ -162,7 +165,9 @@
 		"new",
 		"panda",
 		"dev",
-		"style"
+		"style",
+		"cozy",
+		"relax"
 	],
 	"categories": [
 		"Themes"

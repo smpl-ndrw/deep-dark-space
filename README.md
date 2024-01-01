@@ -77,7 +77,12 @@ If you want all your code to be italicized, like on my screenshots, add these se
 	"[Deep Dark Space]": {
 		"textMateRules": [
 			{
-				"scope": ["source", "text.html", "entity.other.attribute-name.class.css", "entity.other.attribute-name.id.css"],
+				"scope": [
+					"source",
+					"text.html",
+					"entity.other.attribute-name.class.css",
+					"entity.other.attribute-name.id.css"
+				],
 				"settings": {
 					"fontStyle": "italic"
 				}
