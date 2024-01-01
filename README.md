@@ -72,19 +72,21 @@
 
 If you want all your code to be italicized, like on my screenshots, add these settings to your settings.json file.
 
-    "editor.tokenColorCustomizations": {
-    	"[Deep Dark Space]": {
-    		"textMateRules": [
-    			{
-    				"scope": ["source", "text.html", "entity.other.attribute-name.class.css", "entity.other.attribute-name.id.css"],
-    				"settings": {
-    					"fontStyle": "italic"
-    				}
-    			}
-    		]
-    	}
-    }
+```json
+"editor.tokenColorCustomizations": {
+	"[Deep Dark Space]": {
+		"textMateRules": [
+			{
+				"scope": ["source", "text.html", "entity.other.attribute-name.class.css", "entity.other.attribute-name.id.css"],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			}
+		]
+	}
+}
+```
 
 But not all fonts look good in italic style. I prefer to use JetBrains Mono and Fira Code.
 
-**_Enjoy_**
+### **_I hope you enjoyed my theme._**
