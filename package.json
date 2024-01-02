@@ -13,7 +13,7 @@
 		"url": "https://github.com/smpl-ndrw/deep-dark-space.git"
 	},
 	"galleryBanner": {
-		"color": "#111636",
+		"color": "#050c26",
 		"theme": "dark"
 	},
 	"keywords": [
@@ -167,7 +167,11 @@
 		"dev",
 		"style",
 		"cozy",
-		"relax"
+		"relax",
+		"galaxy",
+		"art",
+		"dream",
+		"star"
 	],
 	"categories": [
 		"Themes"
