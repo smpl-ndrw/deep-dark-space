@@ -70,7 +70,7 @@
 
 ## Font
 
-If you want all your code to be italicized, like on my screenshots, add these settings to your settings.json file.
+If you want all your code to be italicized, like on my screenshots, add these settings to your **_settings.json_** file.
 
 ```json
 "editor.tokenColorCustomizations": {
