@@ -245,7 +245,11 @@
 		"com",
 		"full",
 		"ultra",
-		"text"
+		"text",
+		"terminal",
+		"minimal",
+		"ocean",
+		"extra"
 	],
 	"categories": [
 		"Themes"
