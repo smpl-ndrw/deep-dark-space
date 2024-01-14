@@ -195,6 +195,8 @@
 		{
 			"name": "Orange",
 			"scope": [
+				"keyword.other.unit",
+
 				"entity.other.attribute-name.scss",
 				"entity.name.scope-resolution.cpp",
 				"variable.other.object.access.c",
