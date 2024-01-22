@@ -80,6 +80,8 @@
 				"keyword.operator.expression.infer",
 				"keyword.operator.expression.is",
 
+				"storage.type.accessor.get.cs",
+				"storage.type.accessor.set.cs",
 				"keyword.operator.ellipsis.go",
 				"keyword.operator.function.variadic-parameter.swift"
 			],
@@ -115,7 +117,6 @@
 				"storage.type.function.arrow.ts",
 				"storage.type.function.arrow",
 
-				"punctuation.separator.pointer-access.c",
 				"keyword.operator.expression.new.cs",
 				"keyword.operator.closure.dart",
 				"keyword.operator.increment-decrement.dart",
@@ -202,11 +203,9 @@
 				"variable.other.object.access.c",
 				"entity.name.tag.tsx",
 				"variable.other.assignment.go",
-				"punctuation.definition.variable.php",
 				"keyword.operator.unpacking.arguments.python",
 				"keyword.operator.unpacking.parameter.python",
-				"punctuation.definition.variable.ruby",
-				"support.type.swift"
+				"punctuation.definition.variable.ruby"
 			],
 			"settings": {
 				"foreground": "#e35b00"
@@ -223,17 +222,7 @@
 
 		{
 			"name": "Type",
-			"scope": [
-				"entity.name.type.tsx",
-
-				"keyword.type.string.cs",
-				"keyword.type.int.cs",
-				"keyword.type.short.cs",
-				"keyword.type.long.cs",
-				"keyword.type.uint.cs",
-				"keyword.type.ushort.cs",
-				"keyword.type.ulong.cs"
-			],
+			"scope": ["entity.name.type.tsx"],
 			"settings": {
 				"foreground": "#806200"
 			}
@@ -266,8 +255,10 @@
 				"punctuation.definition.list.begin.markdown",
 				"constant.character.escape.json",
 
+				"keyword.operator.c",
 				"punctuation.separator.scope-resolution.cpp",
 				"punctuation.separator.scope-resolution.parameter.cpp",
+				"punctuation.definition.variable.php",
 				"keyword.operator.math.rust",
 				"keyword.operator.custom.infix.swift"
 			],
@@ -293,7 +284,15 @@
 				"support.type.primitive.ts",
 				"support.type.primitive.tsx",
 
-				"keyword.other.type.php"
+				"keyword.type.string.cs",
+				"keyword.type.int.cs",
+				"keyword.type.short.cs",
+				"keyword.type.long.cs",
+				"keyword.type.uint.cs",
+				"keyword.type.ushort.cs",
+				"keyword.type.ulong.cs",
+				"keyword.other.type.php",
+				"support.type.swift"
 			],
 			"settings": {
 				"foreground": "#d33682"
@@ -325,6 +324,8 @@
 				"punctuation.definition.keyword.svelte",
 				"meta.tag.start.svelte",
 				"custom.punctuation.separator.colon.json.comments.snippets",
+
+				"punctuation.separator.pointer-access.c",
 				"markup.bold.markdown",
 				"meta.paragraph.markdown",
 				"entity.name.tag.yaml"
@@ -710,7 +711,7 @@
 
 		{
 			"name": "C operator assignment",
-			"scope": "keyword.operator.c,keyword.operator.bitwise.shift.c,keyword.operator.cpp,keyword.operator.bitwise.shift.cpp",
+			"scope": "keyword.operator.bitwise.shift.c,keyword.operator.cpp,keyword.operator.bitwise.shift.cpp",
 			"settings": {
 				"foreground": "#dc312e"
 			}
@@ -2016,6 +2017,9 @@
 		"editor.foldBackground": "#002d3855",
 		"editorOverviewRuler.background": "#f0f1ce00",
 		"editorOverviewRuler.border": "#7f7f7f4d",
+		"editorOverviewRuler.selectionHighlightForeground": "#664d00",
+		"editorOverviewRuler.wordHighlightForeground": "#664d00",
+		"editorOverviewRuler.wordHighlightStrongForeground": "#ffbf00",
 		"editorError.foreground": "#ff8a3a",
 		"editorError.background": "#B73A3400",
 		"editorError.border": "#00000000",

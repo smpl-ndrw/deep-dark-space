@@ -94,11 +94,15 @@ If you want all your code to be italicized, like on my screenshots, add these se
 
 But not all fonts look good in italic style. I prefer to use **_JetBrains Mono_** or **_Fira Code_**.
 
-## Recommended settings
+## Recommended Settings
 
 ```json
 "editor.guides.bracketPairs": "active",
 "editor.bracketPairColorization.enabled": false
 ```
+
+## License
+
+[MIT License](./LICENSE)
 
 ### **_I hope you enjoyed my theme._**
