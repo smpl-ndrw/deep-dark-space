@@ -1,12 +1,18 @@
 # Deep Dark Space Theme
 
+## HTML
+
+![HTML](/images/HTML.png)
+
+## CSS
+
+![CSS](/images/CSS.png)
+
 ## JavaScript
 
+![JavaScript](/images/JS.png)
+
 ![JavaScript](/images/JS-1.png)
-
-![JavaScript](/images/JS-2.png)
-
-![JavaScript](/images/JS-3.png)
 
 ## TypeScript
 
@@ -68,9 +74,9 @@
 
 ![YAML](/images/YAML.png)
 
-## Font
+## "fontStyle": "_italic_"
 
-If you want all your code to be italicized, like on my screenshots, add these settings to your **_settings.json_** file.
+If you want **all** your code to be **_italicized_**, like on my screenshots, add these settings to your **_settings.json_** file.
 
 ```json
 "editor.tokenColorCustomizations": {
