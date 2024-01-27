@@ -1,5 +1,12 @@
 # Deep Dark Space Theme
 
+## Recommended Settings
+
+```json
+"editor.guides.bracketPairs": "active",
+"editor.bracketPairColorization.enabled": false
+```
+
 ## HTML
 
 ![HTML](/images/HTML.png)
@@ -98,14 +105,21 @@ If you want **all** your code to be **_italicized_**, like on my screenshots, ad
 }
 ```
 
-But not all fonts look good in italic style. I prefer to use **_JetBrains Mono_** or **_Fira Code_**.
+If you want to italicize **only** **_strings_**, **_keywords_**, **_functions_**, **_variables_**, **_numbers_** or **_types_**, add these settings to your **_settings.json_** file.
 
-## Recommended Settings
+For example, let's italicize **only** the **_keywords_**:
 
 ```json
-"editor.guides.bracketPairs": "active",
-"editor.bracketPairColorization.enabled": false
+"editor.tokenColorCustomizations": {
+  "[Deep Dark Space]": {
+    "keywords": {
+        "fontStyle": "italic"
+      }
+  }
+}
 ```
+
+But not all fonts look good in italic style. I prefer to use **_JetBrains Mono_** or **_Fira Code_**.
 
 ## License
 
