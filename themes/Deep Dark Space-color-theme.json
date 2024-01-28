@@ -271,7 +271,6 @@
 				"support.type.property-name.media.css",
 				"entity.other.attribute-name.css",
 				"storage.type",
-				"storage.type.function",
 				"keyword.operator.expression.void",
 				"keyword.operator.expression.typeof",
 				"entity.other.inherited-class",
@@ -362,6 +361,23 @@
 			],
 			"settings": {
 				"foreground": "#696969"
+			}
+		},
+
+		{
+			"name": "Italic Bold",
+			"scope": ["punctuation.definition.template-expression.begin", "punctuation.definition.template-expression.end"],
+			"settings": {
+				"fontStyle": "italic bold"
+			}
+		},
+
+		{
+			"name": "Italic Bold Underline",
+			"scope": ["storage.type.class", "storage.type.interface", "storage.type.type"],
+			"settings": {
+				"fontStyle": "italic bold underline",
+				"foreground": "#d7d7d7"
 			}
 		},
 
@@ -2097,14 +2113,15 @@
 		"debugToolBar.border": "#474747",
 		"notifications.foreground": "#d7d7d7",
 		"notifications.background": "#0a1e24",
-		"notificationToast.border": "#d33682",
-		"notificationsErrorIcon.foreground": "#e35b00",
+		"notificationToast.border": "#00ff9c",
+		"notificationLink.foreground": "#278bd3",
+		"notificationsErrorIcon.foreground": "#ff0000",
 		"notificationsWarningIcon.foreground": "#e35b00",
-		"notificationsInfoIcon.foreground": "#e35b00",
-		"notificationCenter.border": "#d33682",
+		"notificationsInfoIcon.foreground": "#06afc7",
+		"notificationCenter.border": "#00ff9c",
 		"notificationCenterHeader.foreground": "#d7d7d7",
 		"notificationCenterHeader.background": "#002d38",
-		"notifications.border": "#278bd3",
+		"notifications.border": "#00ff9c",
 		"gitDecoration.addedResourceForeground": "#5cab96",
 		"gitDecoration.conflictingResourceForeground": "#e35b00",
 		"gitDecoration.deletedResourceForeground": "#e35b00",

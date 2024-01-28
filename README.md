@@ -83,7 +83,7 @@
 
 ## "fontStyle": "_italic_"
 
-If you want **all** your code to be **_italicized_**, like on my screenshots, add these settings to your **_settings.json_** file.
+1. If you want **all** your code to be **_italicized_**, like on my screenshots, add these settings to your **_settings.json_** file.
 
 ```json
 "editor.tokenColorCustomizations": {
@@ -105,7 +105,7 @@ If you want **all** your code to be **_italicized_**, like on my screenshots, ad
 }
 ```
 
-If you want to italicize **only** **_strings_**, **_keywords_**, **_functions_**, **_variables_**, **_numbers_** or **_types_**, add these settings to your **_settings.json_** file.
+2. If you want to italicize **only** the **_strings_**, **_keywords_**, **_functions_**, **_variables_**, **_numbers_** or **_types_**, add these settings to your **_settings.json_** file.
 
 For example, let's italicize **only** the **_keywords_**:
 
@@ -113,11 +113,57 @@ For example, let's italicize **only** the **_keywords_**:
 "editor.tokenColorCustomizations": {
   "[Deep Dark Space]": {
     "keywords": {
-        "fontStyle": "italic"
-      }
+      "fontStyle": "italic"
+    }
   }
 }
 ```
+
+3. If you want to italicize **only** the **words** - **_function_**, **_interface_**, **_class_**, **_let_**, **_const_**, **_true_**, **_false_**, **_undefined_** or **_null_**, add these settings to your **_settings.json_** file.
+
+```json
+"editor.tokenColorCustomizations": {
+  "[Deep Dark Space]": {
+    "textMateRules": [
+      {
+        "scope": [
+          "storage.type.function", // for the word - function.
+          "storage.type.interface", // for the word - interface.
+          "storage.type.class", // for the word - class.
+          "storage.type", // for ALL of the above + let, const.
+
+          "constant.language.boolean", // true, false
+          "constant.language.undefined", // undefined
+          "constant.language.null", // null
+          "constant.language" // true, false, undefined, null
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  }
+}
+```
+
+4. If you want to italicize **only** the **_class_** or **_parameter_**, add these settings to your **_settings.json_** file.
+
+For example, let's italicize **only** the **_parameter_**:
+
+```json
+"editor.semanticTokenColorCustomizations": {
+  "[Deep Dark Space]": {
+    "enabled": true,
+    "rules": {
+      "parameter": {
+        "fontStyle": "italic"
+      }
+    }
+  }
+},
+```
+
+A more complete [list](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#semantic-token-classification) of tokens that can be italicized.
 
 But not all fonts look good in italic style. I prefer to use **_JetBrains Mono_** or **_Fira Code_**.
 
