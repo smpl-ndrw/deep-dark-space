@@ -127,10 +127,10 @@ For example, let's italicize **only** the **_keywords_**:
     "textMateRules": [
       {
         "scope": [
-          "storage.type.function", // for the word - function.
-          "storage.type.interface", // for the word - interface.
-          "storage.type.class", // for the word - class.
-          "storage.type", // for ALL of the above + let, const.
+          "storage.type.function", // function.
+          "storage.type.interface", // interface.
+          "storage.type.class", // class.
+          "storage.type", // for all of the above + let, const.
 
           "constant.language.boolean", // true, false
           "constant.language.undefined", // undefined
