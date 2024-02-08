@@ -113,9 +113,6 @@
 				"support.type.builtin.tsx",
 				"custom.punctuation.section.insertion.dollar.brackets",
 				"custom.punctuation.section.insertion.bracket",
-				"storage.type.function.arrow.tsx",
-				"storage.type.function.arrow.ts",
-				"storage.type.function.arrow",
 
 				"keyword.operator.expression.new.cs",
 				"keyword.operator.closure.dart",
@@ -142,8 +139,6 @@
 			"name": "Cyan",
 			"scope": [
 				"constant.other.color.rgb-value.hex",
-				"punctuation.definition.entity.begin.bracket.square",
-				"punctuation.definition.entity.end.bracket.square",
 				"support.constant.property-value.css",
 				"support.constant.property-value.scss",
 				"support.constant.font-name.css",
@@ -244,7 +239,6 @@
 				"keyword.operator.expression.keyof.ts",
 				"entity.other.attribute-name.class",
 				"constant.other.character-class.range.regexp",
-				"punctuation.definition.character-class.regexp",
 				"constant.other.character-class.set.regexp",
 				"keyword.operator.quantifier.regexp",
 				"constant.character.escape.json.comments.snippets",
@@ -323,6 +317,10 @@
 				"punctuation.definition.keyword.svelte",
 				"meta.tag.start.svelte",
 				"custom.punctuation.separator.colon.json.comments.snippets",
+				"punctuation.definition.entity.begin.bracket.square",
+				"punctuation.definition.entity.end.bracket.square",
+				"punctuation.definition.character-class.regexp",
+				"punctuation.definition.group.regexp",
 
 				"punctuation.separator.pointer-access.c",
 				"markup.bold.markdown",
@@ -346,7 +344,6 @@
 				"punctuation.definition.string.begin",
 				"punctuation.definition.string.end",
 				"punctuation.terminator.rule.css",
-				"keyword.operator.pattern.css",
 				"punctuation.terminator.statement",
 				"punctuation.definition.tag.directive.ts",
 
@@ -368,16 +365,26 @@
 			"name": "Italic Bold",
 			"scope": ["punctuation.definition.template-expression.begin", "punctuation.definition.template-expression.end"],
 			"settings": {
-				"fontStyle": "italic bold"
+				"fontStyle": "italic bold",
+				"foreground": "#dc312e"
 			}
 		},
 
 		{
 			"name": "Italic Bold Underline",
-			"scope": ["storage.type.class", "storage.type.interface", "storage.type.type"],
+			"scope": ["storage.type.class", "storage.type.interface", "storage.type.type", "storage.type.function"],
 			"settings": {
 				"fontStyle": "italic bold underline",
 				"foreground": "#d7d7d7"
+			}
+		},
+
+		{
+			"name": "Arrow",
+			"scope": ["storage.type.function.arrow.tsx", "storage.type.function.arrow.ts", "storage.type.function.arrow"],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#dc312e"
 			}
 		},
 
@@ -2028,8 +2035,8 @@
 		"editorLineNumber.activeForeground": "#d33682",
 		"editorLink.activeForeground": "#06afc7",
 		"editorRuler.foreground": "#e35b00",
-		"editorBracketMatch.background": "#a23c11",
-		"editorBracketMatch.border": "#696969",
+		"editorBracketMatch.background": "#00141a",
+		"editorBracketMatch.border": "#e35b00",
 		"editorBracketHighlight.foreground1": "#696969",
 		"editorBracketHighlight.foreground2": "#696969",
 		"editorBracketHighlight.foreground3": "#696969",
@@ -2039,6 +2046,7 @@
 		"editorOverviewRuler.selectionHighlightForeground": "#664d00",
 		"editorOverviewRuler.wordHighlightForeground": "#664d00",
 		"editorOverviewRuler.wordHighlightStrongForeground": "#00cc00",
+		"editorOverviewRuler.addedForeground": "#859900",
 		"editorOverviewRuler.warningForeground": "#cc9900",
 		"editorError.foreground": "#ff0000",
 		"editorError.background": "#B73A3400",
@@ -2051,7 +2059,7 @@
 		"editorInfo.border": "#06afc700",
 		"editorGutter.background": "#00141a",
 		"editorGutter.modifiedBackground": "#0c7d9d",
-		"editorGutter.addedBackground": "#5cab96",
+		"editorGutter.addedBackground": "#859900",
 		"editorGutter.deletedBackground": "#94151b",
 		"editorGutter.foldingControlForeground": "#278bd3",
 		"editorCodeLens.foreground": "#f0f1ce99",
@@ -2124,7 +2132,7 @@
 		"notificationCenterHeader.foreground": "#d7d7d7",
 		"notificationCenterHeader.background": "#002d38",
 		"notifications.border": "#00ff9c",
-		"gitDecoration.addedResourceForeground": "#5cab96",
+		"gitDecoration.addedResourceForeground": "#859900",
 		"gitDecoration.conflictingResourceForeground": "#e35b00",
 		"gitDecoration.deletedResourceForeground": "#e35b00",
 		"gitDecoration.ignoredResourceForeground": "#839496",
@@ -2173,7 +2181,7 @@
 		"dropdown.background": "#002d38",
 		"dropdown.foreground": "#d7d7d7",
 		"dropdown.border": "#00000000",
-		"minimapGutter.addedBackground": "#5cab96",
+		"minimapGutter.addedBackground": "#859900",
 		"minimapGutter.modifiedBackground": "#0c7d9d",
 		"minimapGutter.deletedBackground": "#94151b",
 		"minimap.findMatchHighlight": "#67a0ce66",

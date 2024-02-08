@@ -53,7 +53,7 @@
 
 ![Java](/images/JAVA.png)
 
-## Markdown ;)
+## Markdown
 
 ![Markdown](/images/MARKDOWN.png)
 
@@ -105,7 +105,7 @@
 }
 ```
 
-2. If you want to italicize **only** the **_strings_**, **_keywords_**, **_functions_**, **_variables_**, **_numbers_** or **_types_**, add these settings to your **_settings.json_** file.
+2. If you want to italicize **only** the **_strings, keywords, functions, variables, numbers_** or **_types_**, add these settings to your **_settings.json_** file.
 
 For example, let's italicize **only** the **_keywords_**:
 
@@ -119,7 +119,7 @@ For example, let's italicize **only** the **_keywords_**:
 }
 ```
 
-3. If you want to italicize **only** the **words** - **_function_**, **_interface_**, **_class_**, **_let_**, **_const_**, **_true_**, **_false_**, **_undefined_** or **_null_**, add these settings to your **_settings.json_** file.
+3. If you want to italicize **only** the **words** - **_let, const, true, false, undefined_** or **_null_**, add these settings to your **_settings.json_** file.
 
 ```json
 "editor.tokenColorCustomizations": {
@@ -127,18 +127,37 @@ For example, let's italicize **only** the **_keywords_**:
     "textMateRules": [
       {
         "scope": [
-          "storage.type.function", // function.
-          "storage.type.interface", // interface.
-          "storage.type.class", // class.
-          "storage.type", // for all of the above + let, const.
+          "storage.type", // let, const + function, interface, class, type
 
           "constant.language.boolean", // true, false
-          "constant.language.undefined", // undefined
-          "constant.language.null", // null
+          "constant.language.undefined",
+          "constant.language.null",
           "constant.language" // true, false, undefined, null
         ],
         "settings": {
           "fontStyle": "italic"
+        }
+      }
+    ]
+  }
+}
+```
+
+**Words** **_function, interface, class_**, and **_type_** are italicized by default. If you want to make them in normal font, add these settings to your **_settings.json_** file.
+
+```json
+"editor.tokenColorCustomizations": {
+  "[Deep Dark Space]": {
+    "textMateRules": [
+      {
+        "scope": [
+          "storage.type.function",
+          "storage.type.interface",
+          "storage.type.class",
+          "storage.type.type"
+        ],
+        "settings": {
+          "fontStyle": ""
         }
       }
     ]
