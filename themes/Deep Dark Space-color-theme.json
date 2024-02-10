@@ -25,7 +25,7 @@
 			"foreground": "#859900"
 		},
 		"type": {
-			"foreground": "#806200"
+			"foreground": "#684c31"
 		},
 
 		"enumMember": {
@@ -151,7 +151,10 @@
 				"punctuation.definition.string.end.scss",
 				"punctuation.definition.string.begin.js",
 				"punctuation.definition.string.end.js",
-				"keyword.other.animation.svelte",
+				"punctuation.definition.string.begin.ts",
+				"punctuation.definition.string.end.ts",
+				"punctuation.definition.string.begin.tsx",
+				"punctuation.definition.string.end.tsx",
 				"markup.inline.raw.string.markdown",
 				"markup.underline.link.markdown",
 				"markup.underline.link.image.markdown"
@@ -241,9 +244,8 @@
 				"constant.other.character-class.range.regexp",
 				"constant.other.character-class.set.regexp",
 				"keyword.operator.quantifier.regexp",
-				"constant.character.escape.json.comments.snippets",
 				"punctuation.definition.list.begin.markdown",
-				"constant.character.escape.json",
+				"custom.variable.other.normal.numeric.json.comments.snippets",
 
 				"keyword.operator.c",
 				"punctuation.separator.scope-resolution.cpp",
@@ -321,6 +323,8 @@
 				"punctuation.definition.entity.end.bracket.square",
 				"punctuation.definition.character-class.regexp",
 				"punctuation.definition.group.regexp",
+				"constant.character.escape",
+				"constant.character.escape.json.comments.snippets",
 
 				"punctuation.separator.pointer-access.c",
 				"markup.bold.markdown",
@@ -1187,14 +1191,6 @@
 		{
 			"name": "Regular Expressions",
 			"scope": "string.regexp",
-			"settings": {
-				"foreground": "#859900"
-			}
-		},
-
-		{
-			"name": "Escape Characters",
-			"scope": "constant.character.escape",
 			"settings": {
 				"foreground": "#859900"
 			}

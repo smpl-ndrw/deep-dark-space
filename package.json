@@ -89,7 +89,7 @@
 		"azure",
 		"halcyon",
 		"firefly",
-		"base",
+		"base16",
 		"hyper",
 		"symbols",
 		"black",
@@ -285,7 +285,18 @@
 		"sky",
 		"magic",
 		"saturn",
-		"neptune"
+		"neptune",
+		"duotone",
+		"moonlight",
+		"tomorrow",
+		"tag",
+		"studio",
+		"box",
+		"netbeans",
+		"codestackr",
+		"plastic",
+		"design",
+		"mega"
 	],
 	"categories": [
 		"Themes"
