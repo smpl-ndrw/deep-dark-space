@@ -1,6 +1,4 @@
-<div align="center">
 # Deep Dark Space
-</div>
 
 ## Recommended Settings
 
