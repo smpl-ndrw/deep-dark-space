@@ -79,6 +79,7 @@
 				"keyword.operator.spread",
 				"keyword.operator.expression.infer",
 				"keyword.operator.expression.is",
+				"keyword.operator.rest",
 
 				"storage.type.accessor.get.cs",
 				"storage.type.accessor.set.cs",

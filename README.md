@@ -1,4 +1,6 @@
-# Deep Dark Space Theme
+<div align="center">
+# Deep Dark Space
+</div>
 
 ## Recommended Settings
 
@@ -80,6 +82,10 @@
 ## YAML
 
 ![YAML](/images/YAML.png)
+
+## JSON
+
+![JSON](/images/JSON.png)
 
 ## "fontStyle": "_italic_"
 
