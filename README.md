@@ -1,4 +1,4 @@
-# Deep Dark Space
+<h1 align="center">Deep Dark Space</h1>
 
 ## Recommended Settings
 
@@ -123,7 +123,7 @@ For example, let's italicize **only** the **_keywords_**:
 }
 ```
 
-3. If you want to italicize **only** the **words** - **_let, const, true, false, undefined_** or **_null_**, add these settings to your **_settings.json_** file.
+3. If you want to italicize **only** the **words** - **_true, false, undefined_** or **_null_**, add these settings to your **_settings.json_** file.
 
 ```json
 "editor.tokenColorCustomizations": {
@@ -131,8 +131,6 @@ For example, let's italicize **only** the **_keywords_**:
     "textMateRules": [
       {
         "scope": [
-          "storage.type", // let, const + function, interface, class, type
-
           "constant.language.boolean", // true, false
           "constant.language.undefined",
           "constant.language.null",
@@ -147,7 +145,7 @@ For example, let's italicize **only** the **_keywords_**:
 }
 ```
 
-**Words** **_function, interface, class_**, and **_type_** are italicized by default. If you want to make them in normal font, add these settings to your **_settings.json_** file.
+**Words** **_function, interface, class, type_**, and **_let, const_** are italicized by default. If you want to make them in normal font, add these settings to your **_settings.json_** file.
 
 ```json
 "editor.tokenColorCustomizations": {
@@ -159,6 +157,8 @@ For example, let's italicize **only** the **_keywords_**:
           "storage.type.interface",
           "storage.type.class",
           "storage.type.type"
+
+          "storage.type", // let, const + function, interface, class, type
         ],
         "settings": {
           "fontStyle": ""
@@ -194,4 +194,4 @@ But not all fonts look good in italic style. I prefer to use **_JetBrains Mono_*
 
 [MIT License](./LICENSE)
 
-### **_I hope you enjoyed my theme._**
+<h3 align="center"><strong><em>I hope you enjoyed my theme.</em></strong></h3>

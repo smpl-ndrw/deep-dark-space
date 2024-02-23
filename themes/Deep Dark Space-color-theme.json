@@ -219,7 +219,7 @@
 			"name": "Type",
 			"scope": ["entity.name.type.tsx"],
 			"settings": {
-				"foreground": "#806200"
+				"foreground": "#b67352"
 			}
 		},
 
@@ -372,6 +372,15 @@
 			"settings": {
 				"fontStyle": "italic bold",
 				"foreground": "#dc312e"
+			}
+		},
+
+		{
+			"name": "let, const, constructor - js, ts, tsx",
+			"scope": ["storage.type.js", "storage.type.ts", "storage.type.tsx"],
+			"settings": {
+				"fontStyle": "italic underline",
+				"foreground": "#675D50"
 			}
 		},
 
@@ -1740,7 +1749,7 @@
 			"name": "types",
 			"scope": ["support.type.vb.asp"],
 			"settings": {
-				"foreground": "#806200"
+				"foreground": "#b67352"
 			}
 		},
 
