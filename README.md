@@ -186,7 +186,7 @@ For example, let's italicize **only** the **_parameter_**:
 },
 ```
 
-A more complete [list](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#semantic-token-classification) of tokens that can be italicized.
+A more complete [LIST](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#semantic-token-classification) of tokens that can be italicized.
 
 But not all fonts look good in italic style. I prefer to use **_JetBrains Mono_** or **_Fira Code_**.
 

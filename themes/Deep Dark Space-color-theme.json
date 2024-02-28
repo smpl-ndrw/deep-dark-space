@@ -59,7 +59,7 @@
 			"foreground": "#278bd3"
 		},
 		"interface": {
-			"foreground": "#494eb6"
+			"foreground": "#5b60be"
 		}
 	},
 
@@ -211,7 +211,7 @@
 			"name": "Violet",
 			"scope": ["entity.name.type.cs"],
 			"settings": {
-				"foreground": "#494eb6"
+				"foreground": "#5b60be"
 			}
 		},
 
@@ -2036,7 +2036,7 @@
 		"editor.wordHighlightStrongBackground": "#ffbf0000",
 		"editor.wordHighlightStrongBorder": "#2aa298",
 		"editor.wordHighlightBackground": "#332700",
-		"editor.lineHighlightBackground": "#002d38",
+		"editor.lineHighlightBackground": "#002d3870",
 		"editor.lineHighlightBorder": "#00000000",
 		"editorLineNumber.activeForeground": "#d33682",
 		"editorLink.activeForeground": "#06afc7",
@@ -2046,7 +2046,7 @@
 		"editorBracketHighlight.foreground1": "#696969",
 		"editorBracketHighlight.foreground2": "#696969",
 		"editorBracketHighlight.foreground3": "#696969",
-		"editor.foldBackground": "#002d3855",
+		"editor.foldBackground": "#002d38",
 		"editorOverviewRuler.background": "#f0f1ce00",
 		"editorOverviewRuler.border": "#7f7f7f4d",
 		"editorOverviewRuler.selectionHighlightForeground": "#664d00",
