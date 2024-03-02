@@ -59,7 +59,11 @@
 			"foreground": "#278bd3"
 		},
 		"interface": {
-			"foreground": "#5b60be"
+			"foreground": "#e35b00"
+		},
+		"type.defaultLibrary": {
+			"foreground": "#b67352",
+			"fontStyle": "italic bold underline"
 		}
 	},
 
@@ -71,10 +75,13 @@
 				"entity.other.attribute-name",
 				"entity.other.attribute-name.id",
 				"entity.other.attribute-name.class.css",
+				"entity.other.attribute-name.class.scss",
 				"entity.other.attribute-name.directive.ts",
+				"entity.other.attribute-name.directive.tsx",
 				"punctuation.definition.entity",
 				"keyword.operator.combinator",
 				"support.type.vendored.property-name.css",
+				"support.type.vendored.property-name.scss",
 				"variable.other.readwrite.alias",
 				"keyword.operator.spread",
 				"keyword.operator.expression.infer",
@@ -110,8 +117,6 @@
 				"punctuation.definition.string.template.begin",
 				"punctuation.definition.string.template.end",
 				"punctuation.definition.keyword",
-				"support.type.builtin.ts",
-				"support.type.builtin.tsx",
 				"custom.punctuation.section.insertion.dollar.brackets",
 				"custom.punctuation.section.insertion.bracket",
 
@@ -143,9 +148,13 @@
 				"support.constant.property-value.css",
 				"support.constant.property-value.scss",
 				"support.constant.font-name.css",
+				"support.constant.font-name.scss",
 				"support.constant.color.w3c-extended-color-name.css",
+				"support.constant.color.w3c-extended-color-name.scss",
 				"support.constant.color.w3c-standard-color-name.css",
+				"support.constant.color.w3c-standard-color-name.scss",
 				"punctuation.definition.constant.css",
+				"punctuation.definition.constant.scss",
 				"punctuation.definition.string.begin.css",
 				"punctuation.definition.string.end.css",
 				"punctuation.definition.string.begin.scss",
@@ -193,10 +202,8 @@
 			"scope": [
 				"keyword.other.unit",
 
-				"entity.other.attribute-name.scss",
 				"entity.name.scope-resolution.cpp",
 				"variable.other.object.access.c",
-				"entity.name.tag.tsx",
 				"variable.other.assignment.go",
 				"keyword.operator.unpacking.arguments.python",
 				"keyword.operator.unpacking.parameter.python",
@@ -209,7 +216,14 @@
 
 		{
 			"name": "Violet",
-			"scope": ["entity.name.type.cs"],
+			"scope": [
+				"support.type.primitive.ts",
+				"support.type.primitive.tsx",
+				"support.type.builtin.ts",
+				"support.type.builtin.tsx",
+
+				"entity.name.type.cs"
+			],
 			"settings": {
 				"foreground": "#5b60be"
 			}
@@ -239,9 +253,14 @@
 				"keyword.control.loop",
 				"punctuation.accessor.optional",
 				"keyword.operator.optional.ts",
+				"keyword.operator.optional.tsx",
 				"keyword.operator.type.modifier.ts",
+				"keyword.operator.type.modifier.tsx",
 				"keyword.operator.expression.keyof.ts",
+				"keyword.operator.expression.keyof.tsx",
 				"entity.other.attribute-name.class",
+				"entity.other.keyframe-offset.percentage.css",
+				"entity.other.keyframe-offset.percentage.scss",
 				"constant.other.character-class.range.regexp",
 				"constant.other.character-class.set.regexp",
 				"keyword.operator.quantifier.regexp",
@@ -264,17 +283,19 @@
 			"name": "Magenta",
 			"scope": [
 				"variable.css",
+				"variable.scss",
 				"variable.argument.css",
+				"variable.argument.scss",
 				"support.type.property-name.media.css",
+				"support.type.property-name.media.scss",
 				"entity.other.attribute-name.css",
+				"entity.other.attribute-name.scss",
 				"storage.type",
 				"keyword.operator.expression.void",
 				"keyword.operator.expression.typeof",
 				"entity.other.inherited-class",
 				"variable.language.super",
 				"support.class",
-				"support.type.primitive.ts",
-				"support.type.primitive.tsx",
 
 				"keyword.type.string.cs",
 				"keyword.type.int.cs",
@@ -298,8 +319,11 @@
 				"text.html.derivative",
 				"support.type.property-name",
 				"variable.parameter.keyframe-list.css",
+				"variable.parameter.keyframe-list.scss",
 				"source.css",
+				"source.scss",
 				"punctuation.separator.list.comma.css",
+				"punctuation.separator.list.comma.scss",
 				"punctuation.section.function.begin.bracket.round",
 				"punctuation.section.function.end.bracket.round",
 				"punctuation.separator.key-value",
@@ -307,10 +331,15 @@
 				"",
 				"meta.brace.square",
 				"constant.language.import-export-all.ts",
+				"constant.language.import-export-all.tsx",
 				"meta.brace.round.ts",
+				"meta.brace.round.tsx",
 				"punctuation.definition.block.ts",
+				"punctuation.definition.block.tsx",
 				"punctuation.definition.parameters.begin.ts",
+				"punctuation.definition.parameters.begin.tsx",
 				"punctuation.definition.parameters.end.ts",
+				"punctuation.definition.parameters.end.tsx",
 				"keyword.operator.type.annotation.ts",
 				"keyword.operator.type.annotation.tsx",
 				"punctuation.section.embedded.begin.tsx",
@@ -349,8 +378,10 @@
 				"punctuation.definition.string.begin",
 				"punctuation.definition.string.end",
 				"punctuation.terminator.rule.css",
+				"punctuation.terminator.rule.scss",
 				"punctuation.terminator.statement",
 				"punctuation.definition.tag.directive.ts",
+				"punctuation.definition.tag.directive.tsx",
 
 				"punctuation.terminator.dart",
 				"punctuation.semi.rust",
@@ -1014,7 +1045,7 @@
 			"name": "Support type",
 			"scope": "support.constant.font-name",
 			"settings": {
-				"foreground": "#859900"
+				"foreground": "#2aa298"
 			}
 		},
 
@@ -1070,7 +1101,7 @@
 			"name": "Tags",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#e35b00"
+				"foreground": "#b67352"
 			}
 		},
 
@@ -2036,7 +2067,7 @@
 		"editor.wordHighlightStrongBackground": "#ffbf0000",
 		"editor.wordHighlightStrongBorder": "#2aa298",
 		"editor.wordHighlightBackground": "#332700",
-		"editor.lineHighlightBackground": "#002d3870",
+		"editor.lineHighlightBackground": "#002d3850",
 		"editor.lineHighlightBorder": "#00000000",
 		"editorLineNumber.activeForeground": "#d33682",
 		"editorLink.activeForeground": "#06afc7",
