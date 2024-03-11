@@ -145,7 +145,7 @@ For example, let's italicize **only** the **_keywords_**:
 }
 ```
 
-**Words** **_function, interface, class, type_**, and **_let, const_** are italicized by default. If you want to make them in normal font, add these settings to your **_settings.json_** file.
+**Words** **_function, interface, class, type_**, and **_let, const_** are italicized by default. If you want to make them in normal font style, add these settings to your **_settings.json_** file.
 
 ```json
 "editor.tokenColorCustomizations": {
