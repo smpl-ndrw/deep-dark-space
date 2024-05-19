@@ -7,83 +7,41 @@
 "editor.bracketPairColorization.enabled": false
 ```
 
-## HTML
+## HTML / CSS
 
-![HTML](/images/HTML.png)
+![HTML_CSS](/images/HTML_CSS.png)
 
-## CSS
+## JavaScript / TypeScript
 
-![CSS](/images/CSS.png)
+![JavaScript_TypeScript](/images/JS_TS.png)
 
-## JavaScript
+## C / C++
 
-![JavaScript](/images/JS.png)
+![C_C++](/images/C_C++.png)
 
-![JavaScript](/images/JS-1.png)
+## Clojure / C#
 
-## TypeScript
+![Clojure_C#](/images/CLOJURE_CS.png)
 
-![TypeScript](/images/TS.png)
+## Dart / Go
 
-## C
+![Dart_Go](/images/DART_GO.png)
 
-![C](/images/C.png)
+## Java / Swift
 
-## C++
+![Java_Swift](/images/JAVA_SWIFT.png)
 
-![C++](/images/C++.png)
+## PHP / Python
 
-## Clojure
+![PHP_Python](/images/PHP_PYTHON.png)
 
-![Clojure](/images/CLOJURE.png)
+## Ruby / Rust
 
-## C#
+![Ruby_Rust](/images/RUBY_RUST.png)
 
-![C#](/images/CS.png)
+## Markdown / JSON
 
-## Dart
-
-![Dart](/images/DART.png)
-
-## Go
-
-![Go](/images/GO.png)
-
-## Java
-
-![Java](/images/JAVA.png)
-
-## Markdown
-
-![Markdown](/images/MARKDOWN.png)
-
-## PHP
-
-![PHP](/images/PHP.png)
-
-## Python
-
-![Python](/images/PYTHON.png)
-
-## Ruby
-
-![Ruby](/images/RUBY.png)
-
-## Rust
-
-![Rust](/images/RUST.png)
-
-## Swift
-
-![Swift](/images/SWIFT.png)
-
-## YAML
-
-![YAML](/images/YAML.png)
-
-## JSON
-
-![JSON](/images/JSON.png)
+![Markdown_JSON](/images/MARKDOWN_JSON.png)
 
 ## "fontStyle": "_italic_"
 
