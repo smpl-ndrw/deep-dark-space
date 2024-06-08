@@ -1,4 +1,6 @@
-<img src="astronaut-icon.gif" width="200" align="center"/>
+<div align="center">
+	<img src="astronaut-icon.gif" width="200"/>
+</div>
 
 <br/>
 
