@@ -1,3 +1,7 @@
+<img src="astronaut-icon.gif" width="200" align="center"/>
+
+<br/>
+
 <h1 align="center">Deep Dark Space</h1>
 
 ## Recommended Settings

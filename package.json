@@ -4,7 +4,7 @@
 	"description": "Syntax has never been so beautiful.",
 	"version": "0.24.0",
 	"publisher": "smpl-ndrw",
-	"icon": "astronaut-icon.png",
+	"icon": "astronaut-icon.gif",
 	"engines": {
 		"vscode": "^1.85.0"
 	},
@@ -349,7 +349,11 @@
 		"hopscotch",
 		"vitesse",
 		"sapphire",
-		"dragan"
+		"dragan",
+		"punk",
+		"bit",
+		"side",
+		"pixel"
 	],
 	"categories": [
 		"Themes"
