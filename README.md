@@ -2,9 +2,9 @@
 	<img src="astronaut-icon.gif" width="200"/>
 </div>
 
-<br/>
+<h1 align="center">DEEP DARK SPACE</h1>
 
-<h1 align="center">Deep Dark Space</h1>
+<h1 align="center">BLACK MOON MODE ADDED</h1>
 
 ## Recommended Settings
 
@@ -13,41 +13,41 @@
 "editor.bracketPairColorization.enabled": false
 ```
 
-## HTML / CSS
+<h1 align="center">HTML / CSS</h1>
 
-![HTML_CSS](/images/HTML_CSS.png)
+<img src="/images/Classic/HTML_CSS.png" width="380" /><img src="/images/BlackMoon/HTML_CSS.png" width="380" />
 
-## JavaScript / TypeScript
+<h1 align="center">JavaScript / TypeScript</h1>
 
-![JavaScript_TypeScript](/images/JS_TS.png)
+<img src="/images/Classic/JS_TS.png" width="380" /><img src="/images/BlackMoon/JS_TS.png" width="380" />
 
-## C / C++
+<h1 align="center">C / C++</h1>
 
-![C_C++](/images/C_C++.png)
+<img src="/images/Classic/C_CPP.png" width="380"/><img src="/images/BlackMoon/C_CPP.png" width="380"/>
 
-## Clojure / C#
+<h1 align="center">CLOJURE / C#</h1>
 
-![Clojure_C#](/images/CLOJURE_CS.png)
+<img src="/images/Classic/CLOJURE_CS.png" width="380" /><img src="/images/BlackMoon/CLOJURE_CS.png" width="380" />
 
-## Dart / Go
+<h1 align="center">Dart / Go</h1>
 
-![Dart_Go](/images/DART_GO.png)
+<img src="/images/Classic/DART_GO.png" width="380" /><img src="/images/BlackMoon/DART_GO.png" width="380" />
 
-## Java / Swift
+<h1 align="center">Java / Swift</h1>
 
-![Java_Swift](/images/JAVA_SWIFT.png)
+<img src="/images/Classic/JAVA_SWIFT.png" width="380" /><img src="/images/BlackMoon/JAVA_SWIFT.png" width="380" />
 
-## PHP / Python
+<h1 align="center">PHP / Python</h1>
 
-![PHP_Python](/images/PHP_PYTHON.png)
+<img src="/images/Classic/PHP_PYTHON.png" width="380" /><img src="/images/BlackMoon/PHP_PYTHON.png" width="380" />
 
-## Ruby / Rust
+<h1 align="center">Ruby / Rust</h1>
 
-![Ruby_Rust](/images/RUBY_RUST.png)
+<img src="/images/Classic/RUBY_RUST.png" width="380" /><img src="/images/BlackMoon/RUBY_RUST.png" width="380" />
 
-## Markdown / JSON
+<h1 align="center">Markdown / JSON</h1>
 
-![Markdown_JSON](/images/MARKDOWN_JSON.png)
+<img src="/images/Classic/MARKDOWN_JSON.png" width="380" /><img src="/images/BlackMoon/MARKDOWN_JSON.png" width="380" />
 
 ## "fontStyle": "_italic_"
 

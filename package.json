@@ -353,7 +353,9 @@
 		"punk",
 		"bit",
 		"side",
-		"pixel"
+		"pixel",
+		"django",
+		"oblivion"
 	],
 	"categories": [
 		"Themes"
@@ -364,6 +366,11 @@
 				"label": "Deep Dark Space",
 				"uiTheme": "vs-dark",
 				"path": "./themes/Deep Dark Space-color-theme.json"
+			},
+			{
+				"label": "Deep Dark Space - Black Moon",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Deep Dark Space - Black Moon-color-theme.json"
 			}
 		]
 	}
