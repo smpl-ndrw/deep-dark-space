@@ -15,39 +15,39 @@
 
 <h1 align="center">HTML / CSS</h1>
 
-<img src="/images/Classic/HTML_CSS.png" width="440" /> <img src="/images/BlackMoon/HTML_CSS.png" width="440" />
+<img src="/images/Classic/HTML_CSS.png" width="420" /> <img src="/images/BlackMoon/HTML_CSS.png" width="420" />
 
 <h1 align="center">JavaScript / TypeScript</h1>
 
-<img src="/images/Classic/JS_TS.png" width="440" /> <img src="/images/BlackMoon/JS_TS.png" width="440" />
+<img src="/images/Classic/JS_TS.png" width="420" /> <img src="/images/BlackMoon/JS_TS.png" width="420" />
 
 <h1 align="center">C / C++</h1>
 
-<img src="/images/Classic/C_CPP.png" width="440"/><img  src="/images/BlackMoon/C_CPP.png" width="440"/>
+<img src="/images/Classic/C_CPP.png" width="420"/><img  src="/images/BlackMoon/C_CPP.png" width="420"/>
 
 <h1 align="center">CLOJURE / C#</h1>
 
-<img src="/images/Classic/CLOJURE_CS.png" width="440" /> <img src="/images/BlackMoon/CLOJURE_CS.png" width="440" />
+<img src="/images/Classic/CLOJURE_CS.png" width="420" /> <img src="/images/BlackMoon/CLOJURE_CS.png" width="420" />
 
 <h1 align="center">Dart / Go</h1>
 
-<img src="/images/Classic/DART_GO.png" width="440" /> <img src="/images/BlackMoon/DART_GO.png" width="440" />
+<img src="/images/Classic/DART_GO.png" width="420" /> <img src="/images/BlackMoon/DART_GO.png" width="420" />
 
 <h1 align="center">Java / Swift</h1>
 
-<img src="/images/Classic/JAVA_SWIFT.png" width="440" /> <img src="/images/BlackMoon/JAVA_SWIFT.png" width="440" />
+<img src="/images/Classic/JAVA_SWIFT.png" width="420" /> <img src="/images/BlackMoon/JAVA_SWIFT.png" width="420" />
 
 <h1 align="center">PHP / Python</h1>
 
-<img src="/images/Classic/PHP_PYTHON.png" width="440" /> <img src="/images/BlackMoon/PHP_PYTHON.png" width="440" />
+<img src="/images/Classic/PHP_PYTHON.png" width="420" /> <img src="/images/BlackMoon/PHP_PYTHON.png" width="420" />
 
 <h1 align="center">Ruby / Rust</h1>
 
-<img src="/images/Classic/RUBY_RUST.png" width="440" /> <img src="/images/BlackMoon/RUBY_RUST.png" width="440" />
+<img src="/images/Classic/RUBY_RUST.png" width="420" /> <img src="/images/BlackMoon/RUBY_RUST.png" width="420" />
 
 <h1 align="center">Markdown / JSON</h1>
 
-<img src="/images/Classic/MARKDOWN_JSON.png" width="440" /> <img src="/images/BlackMoon/MARKDOWN_JSON.png" width="440" />
+<img src="/images/Classic/MARKDOWN_JSON.png" width="420" /> <img src="/images/BlackMoon/MARKDOWN_JSON.png" width="420" />
 
 ## "fontStyle": "_italic_"
 
