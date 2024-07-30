@@ -25,7 +25,7 @@
 
 <img src="/images/Classic/C_CPP.png" width="340"/><img src="/images/BlackMoon/C_CPP.png" width="340"/>
 
-<h1 align="center">CLOJURE / C#</h1>
+<h1 align="center">Clojure / C#</h1>
 
 <img src="/images/Classic/CLOJURE_CS.png" width="340" /><img src="/images/BlackMoon/CLOJURE_CS.png" width="340" />
 
