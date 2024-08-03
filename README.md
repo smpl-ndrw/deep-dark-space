@@ -55,7 +55,7 @@
 
 ```json
 "editor.tokenColorCustomizations": {
-  "[Deep Dark Space]": {
+  "[Deep Dark Space], [Deep Dark Space - Black Moon]": {
     "textMateRules": [
       {
         "scope": [
@@ -79,7 +79,7 @@ For example, let's italicize **only** the **_keywords_**:
 
 ```json
 "editor.tokenColorCustomizations": {
-  "[Deep Dark Space]": {
+  "[Deep Dark Space], [Deep Dark Space - Black Moon]": {
     "keywords": {
       "fontStyle": "italic"
     }
@@ -91,7 +91,7 @@ For example, let's italicize **only** the **_keywords_**:
 
 ```json
 "editor.tokenColorCustomizations": {
-  "[Deep Dark Space]": {
+  "[Deep Dark Space], [Deep Dark Space - Black Moon]": {
     "textMateRules": [
       {
         "scope": [
@@ -113,7 +113,7 @@ For example, let's italicize **only** the **_keywords_**:
 
 ```json
 "editor.tokenColorCustomizations": {
-  "[Deep Dark Space]": {
+  "[Deep Dark Space], [Deep Dark Space - Black Moon]": {
     "textMateRules": [
       {
         "scope": [
@@ -139,7 +139,7 @@ For example, let's italicize **only** the **_parameter_**:
 
 ```json
 "editor.semanticTokenColorCustomizations": {
-  "[Deep Dark Space]": {
+  "[Deep Dark Space], [Deep Dark Space - Black Moon]": {
     "enabled": true,
     "rules": {
       "parameter": {
