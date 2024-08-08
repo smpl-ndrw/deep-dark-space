@@ -92,7 +92,8 @@
 				"storage.type.accessor.get.cs",
 				"storage.type.accessor.set.cs",
 				"keyword.operator.ellipsis.go",
-				"keyword.operator.function.variadic-parameter.swift"
+				"keyword.operator.function.variadic-parameter.swift",
+				"support.type.property-name.table.toml"
 			],
 			"settings": {
 				"foreground": "#278bd3"
