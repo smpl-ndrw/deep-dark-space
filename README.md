@@ -15,39 +15,39 @@
 
 <h1 align="center">HTML / CSS</h1>
 
-<img src="/images/Classic/HTML_CSS.png" width="340" /> <img src="/images/BlackMoon/HTML_CSS.png" width="340" />
+<a href="https://github.com/smpl-ndrw/deep-dark-space/blob/main/images/Classic/HTML_CSS.png" target="_blank"><img src="/images/Classic/HTML_CSS.png" width="340" /></a> <a href="https://github.com/smpl-ndrw/deep-dark-space/blob/main/images/BlackMoon/HTML_CSS.png" target="_blank"><img src="/images/BlackMoon/HTML_CSS.png" width="340" /></a>
 
 <h1 align="center">JavaScript / TypeScript</h1>
 
-<img src="/images/Classic/JS_TS.png" width="340" /> <img src="/images/BlackMoon/JS_TS.png" width="340" />
+<a href="https://github.com/smpl-ndrw/deep-dark-space/blob/main/images/Classic/JS_TS.png" target="_blank"><img src="/images/Classic/JS_TS.png" width="340" /></a> <a href="https://github.com/smpl-ndrw/deep-dark-space/blob/main/images/BlackMoon/JS_TS.png" target="_blank"><img src="/images/BlackMoon/JS_TS.png" width="340" /></a>
 
 <h1 align="center">C / C++</h1>
 
-<img src="/images/Classic/C_CPP.png" width="340"/> <img src="/images/BlackMoon/C_CPP.png" width="340"/>
+<a href="https://github.com/smpl-ndrw/deep-dark-space/blob/main/images/Classic/C_CPP.png" target="_blank"><img src="/images/Classic/C_CPP.png" width="340"/></a> <a href="https://github.com/smpl-ndrw/deep-dark-space/blob/main/images/BlackMoon/C_CPP.png" target="_blank"><img src="/images/BlackMoon/C_CPP.png" width="340"/></a>
 
 <h1 align="center">Clojure / C#</h1>
 
-<img src="/images/Classic/CLOJURE_CS.png" width="340" /> <img src="/images/BlackMoon/CLOJURE_CS.png" width="340" />
+<a href="https://github.com/smpl-ndrw/deep-dark-space/blob/main/images/Classic/CLOJURE_CS.png" target="_blank"><img src="/images/Classic/CLOJURE_CS.png" width="340" /></a> <a href="https://github.com/smpl-ndrw/deep-dark-space/blob/main/images/BlackMoon/CLOJURE_CS.png" target="_blank"><img src="/images/BlackMoon/CLOJURE_CS.png" width="340" /></a>
 
 <h1 align="center">Dart / Go</h1>
 
-<img src="/images/Classic/DART_GO.png" width="340" /> <img src="/images/BlackMoon/DART_GO.png" width="340" />
+<a href="https://github.com/smpl-ndrw/deep-dark-space/blob/main/images/Classic/DART_GO.png" target="_blank"><img src="/images/Classic/DART_GO.png" width="340" /></a> <a href="https://github.com/smpl-ndrw/deep-dark-space/blob/main/images/BlackMoon/DART_GO.png" target="_blank"><img src="/images/BlackMoon/DART_GO.png" width="340" /></a>
 
 <h1 align="center">Java / Swift</h1>
 
-<img src="/images/Classic/JAVA_SWIFT.png" width="340" /> <img src="/images/BlackMoon/JAVA_SWIFT.png" width="340" />
+<a href="https://github.com/smpl-ndrw/deep-dark-space/blob/main/images/Classic/JAVA_SWIFT.png" target="_blank"><img src="/images/Classic/JAVA_SWIFT.png" width="340" /></a> <a href="https://github.com/smpl-ndrw/deep-dark-space/blob/main/images/BlackMoon/JAVA_SWIFT.png" target="_blank"><img src="/images/BlackMoon/JAVA_SWIFT.png" width="340" /></a>
 
 <h1 align="center">PHP / Python</h1>
 
-<img src="/images/Classic/PHP_PYTHON.png" width="340" /> <img src="/images/BlackMoon/PHP_PYTHON.png" width="340" />
+<a href="https://github.com/smpl-ndrw/deep-dark-space/blob/main/images/Classic/PHP_PYTHON.png" target="_blank"><img src="/images/Classic/PHP_PYTHON.png" width="340" /></a> <a href="https://github.com/smpl-ndrw/deep-dark-space/blob/main/images/BlackMoon/PHP_PYTHON.png" target="_blank"><img src="/images/BlackMoon/PHP_PYTHON.png" width="340" /></a>
 
 <h1 align="center">Ruby / Rust</h1>
 
-<img src="/images/Classic/RUBY_RUST.png" width="340" /> <img src="/images/BlackMoon/RUBY_RUST.png" width="340" />
+<a href="https://github.com/smpl-ndrw/deep-dark-space/blob/main/images/Classic/RUBY_RUST.png" target="_blank"><img src="/images/Classic/RUBY_RUST.png" width="340" /></a> <a href="https://github.com/smpl-ndrw/deep-dark-space/blob/main/images/BlackMoon/RUBY_RUST.png" target="_blank"><img src="/images/BlackMoon/RUBY_RUST.png" width="340" /></a>
 
 <h1 align="center">Markdown / JSON</h1>
 
-<img src="/images/Classic/MARKDOWN_JSON.png" width="340" /> <img src="/images/BlackMoon/MARKDOWN_JSON.png" width="340" />
+<a href="https://github.com/smpl-ndrw/deep-dark-space/blob/main/images/Classic/MARKDOWN_JSON.png" target="_blank"><img src="/images/Classic/MARKDOWN_JSON.png" width="340" /></a> <a href="https://github.com/smpl-ndrw/deep-dark-space/blob/main/images/BlackMoon/MARKDOWN_JSON.png" target="_blank"><img src="/images/BlackMoon/MARKDOWN_JSON.png" width="340" /></a>
 
 ## "fontStyle": "_italic_"
 
