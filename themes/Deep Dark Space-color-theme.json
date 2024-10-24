@@ -208,7 +208,8 @@
 				"keyword.operator.unpacking.parameter.python",
 				"punctuation.definition.heading.markdown",
 				"punctuation.definition.variable.ruby",
-				"entity.name.scope-resolution.template.call.cpp"
+				"entity.name.scope-resolution.template.call.cpp",
+				"constant.other.placeholder.go"
 			],
 			"settings": {
 				"foreground": "#e35b00"
@@ -226,6 +227,11 @@
 				"storage.type.string.go",
 				"storage.type.numeric.go",
 				"storage.type.boolean.go",
+				"storage.type.byte.go",
+				"storage.type.rune.go",
+				"storage.type.uintptr.go",
+				"entity.name.type.any.go",
+				"storage.type.error.go",
 				"keyword.type.string.cs",
 				"keyword.type.int.cs",
 				"keyword.type.short.cs",
@@ -424,6 +430,7 @@
 				"storage.type.ts",
 				"storage.type.tsx",
 				"keyword.var.go",
+				"keyword.const.go",
 				"storage.type.var.cs",
 				"keyword.other.declaration-specifier.swift"
 			],
@@ -443,6 +450,7 @@
 				"keyword.function.go",
 				"keyword.type.go",
 				"keyword.struct.go",
+				"keyword.interface.go",
 				"keyword.other.fn.rust",
 				"storage.type.struct.c",
 				"keyword.control.class.ruby",
