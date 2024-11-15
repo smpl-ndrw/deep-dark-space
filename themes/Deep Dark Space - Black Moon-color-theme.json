@@ -209,7 +209,8 @@
 				"punctuation.definition.heading.markdown",
 				"punctuation.definition.variable.ruby",
 				"entity.name.scope-resolution.template.call.cpp",
-				"constant.other.placeholder.go"
+				"constant.other.placeholder.go",
+				"support.class.dart"
 			],
 			"settings": {
 				"foreground": "#e35b00"
@@ -217,7 +218,7 @@
 		},
 
 		{
-			"name": "Violet",
+			"name": "Violet UNDERLINE",
 			"scope": [
 				"support.type.primitive.ts",
 				"support.type.primitive.tsx",
@@ -247,11 +248,30 @@
 				"storage.type.primitive.dart",
 				"storage.type.primitive.java",
 				"keyword.other.type.php",
-				"storage.type.built-in.primitive.cpp"
+				"storage.type.php",
+				"storage.type.built-in.primitive.cpp",
+				"entity.name.type.numeric.rust"
 			],
 			"settings": {
 				"foreground": "#5b60be",
 				"fontStyle": "italic underline"
+			}
+		},
+
+		{
+			"name": "Violet",
+			"scope": ["entity.name.type.rust"],
+			"settings": {
+				"foreground": "#5b60be"
+			}
+		},
+
+		{
+			"name": "Violet BOLD",
+			"scope": ["entity.name.type.class.java"],
+			"settings": {
+				"foreground": "#5b60be",
+				"fontStyle": "italic bold"
 			}
 		},
 
@@ -432,7 +452,9 @@
 				"keyword.var.go",
 				"keyword.const.go",
 				"storage.type.var.cs",
-				"keyword.other.declaration-specifier.swift"
+				"keyword.other.declaration-specifier.swift",
+				"storage.type.rust",
+				"storage.modifier.dart"
 			],
 			"settings": {
 				"fontStyle": "italic bold underline",
@@ -451,6 +473,7 @@
 				"keyword.type.go",
 				"keyword.struct.go",
 				"keyword.interface.go",
+				"entity.name.type.package.go",
 				"keyword.other.fn.rust",
 				"storage.type.struct.c",
 				"keyword.control.class.ruby",
@@ -679,7 +702,7 @@
 			"name": "java type",
 			"scope": ["storage.type.annotation.java", "storage.type.object.array.java"],
 			"settings": {
-				"foreground": "#d33682"
+				"foreground": "#5b60be"
 			}
 		},
 
@@ -711,7 +734,7 @@
 			"name": "java modifier.import",
 			"scope": "storage.modifier.import.java,storage.type.java,storage.type.generic.java",
 			"settings": {
-				"foreground": "#d33682"
+				"foreground": "#5b60be"
 			}
 		},
 
