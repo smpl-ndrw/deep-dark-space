@@ -133,6 +133,8 @@ For example, let's italicize **only** the **_keywords_**:
 }
 ```
 
+After many updates to the theme, the list of words that are italicized by default has grown a lot. To find out the word's token, use the [SCOPE INSPECTOR](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide#scope-inspector) tool that is built into VS Code.
+
 4. If you want to italicize **only** the **_class_** or **_parameter_**, add these settings to your **_settings.json_** file.
 
 For example, let's italicize **only** the **_parameter_**:

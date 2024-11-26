@@ -138,7 +138,8 @@
 				"keyword.operator.arrow.fat.rust",
 				"keyword.operator.custom.prefix.swift",
 				"storage.type.modifier.access.control.public.cpp",
-				"storage.type.modifier.access.control.private.cpp"
+				"storage.type.modifier.access.control.private.cpp",
+				"keyword.operator.channel.go"
 			],
 			"settings": {
 				"foreground": "#dc312e"
