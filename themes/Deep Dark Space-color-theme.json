@@ -489,7 +489,7 @@
 
 		{
 			"name": "Italic Bold",
-			"scope": ["variable.other.assignment.go"],
+			"scope": ["variable.other.assignment.go", "variable.other.constant.go"],
 			"settings": {
 				"foreground": "#d7d7d7",
 				"fontStyle": "italic bold"
