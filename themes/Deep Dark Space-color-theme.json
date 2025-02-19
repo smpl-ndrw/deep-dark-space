@@ -191,7 +191,8 @@
 				"variable.parameter.function.ruby",
 				"variable.parameter.function.swift",
 				"variable.parameter.go",
-				"variable.parameter.cpp"
+				"variable.parameter.cpp",
+				"storage.modifier.sql"
 			],
 			"settings": {
 				"foreground": "#ffbf00"
@@ -261,7 +262,7 @@
 
 		{
 			"name": "Violet",
-			"scope": ["entity.name.type.rust"],
+			"scope": ["entity.name.type.rust", "storage.type.sql", "entity.name.type.anchor.yaml"],
 			"settings": {
 				"foreground": "#5b60be"
 			}
@@ -277,7 +278,7 @@
 		},
 
 		{
-			"name": "Type",
+			"name": "Coffee",
 			"scope": ["entity.name.type.tsx", "entity.name.type.go", "entity.name.type.cs"],
 			"settings": {
 				"foreground": "#b67352"

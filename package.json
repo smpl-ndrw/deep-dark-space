@@ -400,7 +400,8 @@
 		"lua",
 		"vertical",
 		"serendipity",
-		"arcane"
+		"arcane",
+		"language"
 	],
 	"categories": [
 		"Themes"
