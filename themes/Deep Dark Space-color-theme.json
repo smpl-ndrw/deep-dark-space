@@ -262,7 +262,7 @@
 
 		{
 			"name": "Violet",
-			"scope": ["entity.name.type.rust", "storage.type.sql", "entity.name.type.anchor.yaml"],
+			"scope": ["entity.name.type.rust", "storage.type.sql", "entity.name.type.anchor.yaml", "variable.other.constant.ruby"],
 			"settings": {
 				"foreground": "#5b60be"
 			}
@@ -490,7 +490,12 @@
 
 		{
 			"name": "Italic Bold",
-			"scope": ["variable.other.assignment.go", "variable.other.constant.go"],
+			"scope": [
+				"variable.other.assignment.go",
+				"variable.other.constant.go",
+				"constant.language.symbol.hashkey.ruby",
+				"constant.language.symbol.ruby"
+			],
 			"settings": {
 				"foreground": "#d7d7d7",
 				"fontStyle": "italic bold"
@@ -1573,14 +1578,6 @@
 			"scope": "function.parameter.ruby, function.parameter.cs",
 			"settings": {
 				"foreground": "#d7d7d7"
-			}
-		},
-
-		{
-			"name": "constant.language.symbol.ruby",
-			"scope": "constant.language.symbol.ruby",
-			"settings": {
-				"foreground": "#859900"
 			}
 		},
 
