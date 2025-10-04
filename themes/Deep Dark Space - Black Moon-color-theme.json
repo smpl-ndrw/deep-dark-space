@@ -50,7 +50,8 @@
 			"foreground": "#ffbf00"
 		},
 		"class": {
-			"foreground": "#d33682"
+			"foreground": "#b67352",
+			"fontStyle": "italic bold"
 		},
 		"namespace": {
 			"foreground": "#d7d7d7"
@@ -268,20 +269,37 @@
 			}
 		},
 
-		{
-			"name": "Violet BOLD",
-			"scope": ["entity.name.type.class.java"],
-			"settings": {
-				"foreground": "#5b60be",
-				"fontStyle": "italic bold"
-			}
-		},
+		// {
+		// 	"name": "Violet BOLD",
+		// 	"scope": ["entity.name.type.class.java"],
+		// 	"settings": {
+		// 		"foreground": "#5b60be",
+		// 		"fontStyle": "italic bold"
+		// 	}
+		// },
 
 		{
 			"name": "Coffee",
 			"scope": ["entity.name.type.tsx", "entity.name.type.go", "entity.name.type.cs"],
 			"settings": {
 				"foreground": "#b67352"
+			}
+		},
+
+		{
+			"name": "Coffee BOLD",
+			"scope": [
+				"storage.type",
+				"keyword.operator.expression.void",
+				"keyword.operator.expression.typeof",
+				"entity.other.inherited-class",
+				"variable.language.super",
+				"support.class",
+				"entity.name.type.class.java"
+			],
+			"settings": {
+				"foreground": "#b67352",
+				"fontStyle": "italic bold"
 			}
 		},
 
@@ -332,13 +350,13 @@
 				"support.type.property-name.media.css",
 				"support.type.property-name.media.scss",
 				"entity.other.attribute-name.css",
-				"entity.other.attribute-name.scss",
-				"storage.type",
-				"keyword.operator.expression.void",
-				"keyword.operator.expression.typeof",
-				"entity.other.inherited-class",
-				"variable.language.super",
-				"support.class"
+				"entity.other.attribute-name.scss"
+				// "storage.type",
+				// "keyword.operator.expression.void",
+				// "keyword.operator.expression.typeof",
+				// "entity.other.inherited-class",
+				// "variable.language.super",
+				// "support.class"
 			],
 			"settings": {
 				"foreground": "#d33682"
@@ -701,7 +719,8 @@
 			"name": "js/ts variable.other.constant",
 			"scope": "variable.other.constant",
 			"settings": {
-				"foreground": "#d33682"
+				"foreground": "#b67352",
+				"fontStyle": "italic bold"
 			}
 		},
 
@@ -789,7 +808,8 @@
 			"name": "entity.name.type.module",
 			"scope": "entity.name.type.module",
 			"settings": {
-				"foreground": "#d33682"
+				"foreground": "#b67352",
+				"fontStyle": "italic bold"
 			}
 		},
 
@@ -1053,7 +1073,8 @@
 			"name": "Classes",
 			"scope": "support.class, entity.name.type.class",
 			"settings": {
-				"foreground": "#d33682"
+				"foreground": "#b67352",
+				"fontStyle": "italic bold"
 			}
 		},
 
